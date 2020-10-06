@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on るなろぐ</title><link>https://lunashade.github.io/blog/posts/</link><description>Recent content in Posts on るなろぐ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 06 Oct 2020 20:03:06 +0900</lastBuildDate><atom:link href="https://lunashade.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>About This Blog</title><link>https://lunashade.github.io/blog/posts/about-this-blog/</link><pubDate>Tue, 06 Oct 2020 20:03:06 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/about-this-blog/</guid><description>機運が出てきたのでブログ環境を作ることにした。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on るなろぐ</title><link>https://lunashade.github.io/blog/posts/</link><description>Recent content in Posts on るなろぐ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 06 Oct 2020 20:18:15 +0900</lastBuildDate><atom:link href="https://lunashade.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>アルバハHLのソロのメモ</title><link>https://lunashade.github.io/blog/posts/ubsolo/</link><pubDate>Tue, 06 Oct 2020 20:18:15 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/ubsolo/</guid><description>最近やりだしたアルバハHLソロ。 救援がろくにこないし、人集めもしんどいので、ソロでできるようにした上で救援流して～みたいなことをやっている。
+天司をフルオートでやって天破という手もないではないが、まぁ輪っかが一戦2個ペースだから自発フルオートのみじゃ足んないよなーという。 それは流石に面倒なので…
+ただまぁトリガー覚えてなくてガバり散らかすので、一回まとめておこうねという。 マジェの本数があればもっと楽なのにね…
+編成 闇です。
+ランバー・シス・バレクラ・ゾーイ/ニーア・レイ
+ゾーイはコンジャクデスで即落とし。 主人公アビは「クリアオール」「木漏れ日」「リヴァイブ」。 石は「テュポーン」「黒麒麟」「トール（75~50用）」「デス」。
+今のところ50~30%はギリなのでどうにもね…
+タイムライン 今やっている編成のメモ書きなので完全に自分用です。
+100~95 今昔デスいれて頭3ターンかける。
+95で1万ダイダ。高揚はクラリス3を当てる。
+2ターンで95%踏むとクラリスのHPが足りなかったし、クリティカルで15000になること考えると多分ほかも足りない。 受けきれないならニーア2を入れて軽減する。
+95~86 CT 通常: 1万ダイダ / レギンレイヴ（強圧） OD: 1万ダイダ / キルフレア 85にキルフレア。この区間はCTを受けるしかない。 ダイダなら楽なんですけど、まぁニーア2を主人公に入れながら顔面受けしかないんですかね…。たぶん受かってない。
+グラビは入らず、スロウは入るのでクラリス奥義を打てればそれでも。
+85~75 こっからグラビ通る。この区間はスロウNG。
+CT 通常: 1万ダイダ / レギンレイヴ（強圧） OD: 無属性ダイダ / キルフレア 早めにニーアを落としておきたい。ハデス睡眠またはシス3恐怖を入れたりしつつ特殊を打たせないようにする。無ダイダとキルフレアの両対応は辛い…。
+80CTMAXに注意してうまく調整してからバレクラ3のグラビいれたいですね。 76近辺でbreakできるので、レイ1→シスとかしながらそこまで頑張って殴る。
+75バスコンは幻影受けが望ましい。 超えるまではニーアにリヴァイブを入れない。
+75~50 グラビ・スロウが通る。
+CT 通常: バスコン OD: 神撃 / キルフレア（防ダウン石化） 75リヴァイブ→ニーアしてトール。
+木漏れ日やシューニャ奥義はマウントのために使っていく。 70神撃・55キルフレア（防ダウン石化）あたりを受けたい。
+70神撃バフはレイ奥義で消したい。
+このへんでレイ4が上がっているので、何か（CTのキルフレアあたり）をレイ3を使って受けて、レイ4でリキャを回すとかがありなんかなーという感じ
+50~30 50, 40の無シリウスはオルポ飲んで頑張る。</description></item><item><title>About This Blog</title><link>https://lunashade.github.io/blog/posts/about-this-blog/</link><pubDate>Tue, 06 Oct 2020 20:03:06 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/about-this-blog/</guid><description>機運が出てきたのでブログ環境を作ることにした。
 設定について。
 Github Actionsによるビルド 全面的にこちらのQiita記事GitHub Actions による GitHub Pages への自動デプロイを参考にした。
 https://github.com/lunashade/blog で管理することにした。
