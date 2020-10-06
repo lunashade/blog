@@ -1,6 +1,6 @@
-# gh-pages-sample
+# blog
 
-Hugoによるブログのサンプル
+Hugoによるブログ
 
 ## Github Actionsによるデプロイ
 

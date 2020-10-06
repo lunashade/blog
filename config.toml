@@ -1,4 +1,4 @@
-baseURL = "https://lunashade.github.io/gh-pages-sample"
+baseURL = "https://lunashade.github.io/blog"
 languageCode = "ja-jp"
-title = "My New Hugo Site"
+title = "るなろぐ"
 theme = "ananke"
