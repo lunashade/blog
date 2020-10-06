@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tech on るなろぐ</title><link>https://lunashade.github.io/blog/tags/tech/</link><description>Recent content in tech on るなろぐ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 06 Oct 2020 20:03:06 +0900</lastBuildDate><atom:link href="https://lunashade.github.io/blog/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>About This Blog</title><link>https://lunashade.github.io/blog/posts/about-this-blog/</link><pubDate>Tue, 06 Oct 2020 20:03:06 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/about-this-blog/</guid><description>機運が出てきたのでブログ環境を作ることにした。
+設定について。
+Github Actionsによるビルド 全面的にこちらのQiita記事GitHub Actions による GitHub Pages への自動デプロイを参考にした。
+https://github.com/lunashade/blog で管理することにした。
+記事の作成 基本hugo new **.mdだけ知ってれば十分
+ただまあ色々面倒なので、cargo-makeを導入してやることにした。 makers post &amp;lt;title&amp;gt;でpostを作成してエディタが開く。
+コマンドは色々と実装していこう…</description></item></channel></rss>
