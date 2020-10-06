@@ -1,4 +1,4 @@
 baseURL = "https://lunashade.github.io/blog"
 languageCode = "ja-jp"
 title = "るなろぐ"
-theme = "ananke"
+theme = "hugo-flex"
