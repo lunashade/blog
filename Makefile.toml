@@ -1,0 +1,14 @@
+[tasks.post]
+description = "make new post"
+script = ['''
+#!/usr/bin/env bash
+if [[ "" == "$1" ]]; then
+	echo "makers post <title>"
+	exit 1
+fi
+if [[ -f "content/posts/$1.md" ]]; then
+	editor content/posts/$1.md
+else
+	hugo new "posts/$1.md" --editor="editor"
+fi
+''']

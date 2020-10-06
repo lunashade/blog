@@ -8,4 +8,6 @@ https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d#github-pages-%E3%81%AB%E3
 
 ## Hugoで新規ポストを作成
 
-`hugo new posts/***.md`
+`hugo new posts/***.md --editor="editor"`
+
+または`cargo-make`を導入したので、`makers post <title>`でOK
