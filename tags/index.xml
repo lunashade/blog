@@ -1,1 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on るなろぐ</title><link>https://lunashade.github.io/blog/tags/</link><description>Recent content in Tags on るなろぐ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 06 Oct 2020 20:18:15 +0900</lastBuildDate><atom:link href="https://lunashade.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>gbf</title><link>https://lunashade.github.io/blog/tags/gbf/</link><pubDate>Tue, 06 Oct 2020 20:18:15 +0900</pubDate><guid>https://lunashade.github.io/blog/tags/gbf/</guid><description/></item><item><title>blog</title><link>https://lunashade.github.io/blog/tags/blog/</link><pubDate>Tue, 06 Oct 2020 20:03:06 +0900</pubDate><guid>https://lunashade.github.io/blog/tags/blog/</guid><description/></item><item><title>tech</title><link>https://lunashade.github.io/blog/tags/tech/</link><pubDate>Tue, 06 Oct 2020 20:03:06 +0900</pubDate><guid>https://lunashade.github.io/blog/tags/tech/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://lunashade.github.io/blog/xml/base.min.xml"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on るなろぐ</title><link>https://lunashade.github.io/blog/tags/</link><description>Recent content in Tags on るなろぐ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 06 Oct 2020 20:18:15 +0900</lastBuildDate><atom:link href="https://lunashade.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>アルバハHLのソロのメモ</title><link>https://lunashade.github.io/blog/posts/ubsolo/</link><pubDate>Tue, 06 Oct 2020 20:18:15 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/ubsolo/</guid><description>&lt;p>最近やりだしたアルバハHLソロ。
+救援がろくにこないし、人集めもしんどいので、ソロでできるようにした上で救援流して～みたいなことをやっている。&lt;/p>
+&lt;p>天司をフルオートでやって天破という手もないではないが、まぁ輪っかが一戦2個ペースだから自発フルオートのみじゃ足んないよなーという。
+それは流石に面倒なので…&lt;/p>
+&lt;p>ただまぁトリガー覚えてなくてガバり散らかすので、一回まとめておこうねという。
+マジェの本数があればもっと楽なのにね…&lt;/p>
+&lt;h1 id="編成">編成&lt;/h1>
+&lt;p>闇です。&lt;/p>
+&lt;p>ランバー・シス・バレクラ・ゾーイ/ニーア・レイ&lt;/p>
+&lt;p>ゾーイはコンジャクデスで即落とし。
+主人公アビは「クリアオール」「木漏れ日」「リヴァイブ」。
+石は「テュポーン」「黒麒麟」「トール（75~50用）」「デス」。&lt;/p>
+&lt;p>今のところ50~30%はギリなのでどうにもね…&lt;/p>
+&lt;h1 id="タイムライン">タイムライン&lt;/h1>
+&lt;p>今やっている編成のメモ書きなので完全に自分用です。&lt;/p>
+&lt;h2 id="10095">100~95&lt;/h2>
+&lt;p>今昔デスいれて頭3ターンかける。&lt;/p>
+&lt;p>95で1万ダイダ。高揚はクラリス3を当てる。&lt;/p>
+&lt;p>2ターンで95%踏むとクラリスのHPが足りなかったし、クリティカルで15000になること考えると多分ほかも足りない。
+受けきれないならニーア2を入れて軽減する。&lt;/p>
+&lt;h2 id="9586">95~86&lt;/h2>
+&lt;h3 id="ct">CT&lt;/h3>
+&lt;ul>
+&lt;li>通常: 1万ダイダ / レギンレイヴ（強圧）&lt;/li>
+&lt;li>OD: 1万ダイダ / キルフレア&lt;/li>
+&lt;/ul>
+&lt;p>85にキルフレア。この区間はCTを受けるしかない。
+ダイダなら楽なんですけど、まぁニーア2を主人公に入れながら顔面受けしかないんですかね…。たぶん受かってない。&lt;/p>
+&lt;p>グラビは入らず、スロウは入るのでクラリス奥義を打てればそれでも。&lt;/p>
+&lt;h2 id="8575">85~75&lt;/h2>
+&lt;p>こっからグラビ通る。この区間はスロウNG。&lt;/p>
+&lt;h3 id="ct-1">CT&lt;/h3>
+&lt;ul>
+&lt;li>通常: 1万ダイダ / レギンレイヴ（強圧）&lt;/li>
+&lt;li>OD: 無属性ダイダ / キルフレア&lt;/li>
+&lt;/ul>
+&lt;p>早めにニーアを落としておきたい。ハデス睡眠またはシス3恐怖を入れたりしつつ特殊を打たせないようにする。無ダイダとキルフレアの両対応は辛い…。&lt;/p>
+&lt;p>80CTMAXに注意してうまく調整してからバレクラ3のグラビいれたいですね。
+76近辺でbreakできるので、レイ1→シスとかしながらそこまで頑張って殴る。&lt;/p>
+&lt;p>75バスコンは幻影受けが望ましい。
+超えるまではニーアにリヴァイブを入れない。&lt;/p>
+&lt;h2 id="7550">75~50&lt;/h2>
+&lt;p>グラビ・スロウが通る。&lt;/p>
+&lt;h3 id="ct-2">CT&lt;/h3>
+&lt;ul>
+&lt;li>通常: バスコン&lt;/li>
+&lt;li>OD: 神撃 / キルフレア（防ダウン石化）&lt;/li>
+&lt;/ul>
+&lt;p>75リヴァイブ→ニーアしてトール。&lt;/p>
+&lt;p>木漏れ日やシューニャ奥義はマウントのために使っていく。
+70神撃・55キルフレア（防ダウン石化）あたりを受けたい。&lt;/p>
+&lt;p>70神撃バフはレイ奥義で消したい。&lt;/p>
+&lt;p>このへんでレイ4が上がっているので、何か（CTのキルフレアあたり）をレイ3を使って受けて、レイ4でリキャを回すとかがありなんかなーという感じ&lt;/p>
+&lt;h2 id="5030">50~30&lt;/h2>
+&lt;p>50, 40の無シリウスはオルポ飲んで頑張る。&lt;/p>
+&lt;p>45, 35の属性シリウスはいうて顔面でも受かる印象。シス2奥義かレイ3。&lt;/p>
+&lt;p>DPSチェックはテュなしでぬけられたことが一回しかないです。
+なんかガバってレイが落ちてるのが原因だと思いますけど…&lt;/p>
+&lt;h2 id="3015">30~15&lt;/h2>
+&lt;p>正味この区間は意識ない。&lt;/p>
+&lt;h3 id="ct-3">CT&lt;/h3>
+&lt;ul>
+&lt;li>通常: ゴッドヴォイス / オメガブラスト&lt;/li>
+&lt;li>OD: 破局&lt;/li>
+&lt;/ul>
+&lt;p>28CTMAX、22オメガブラスト。&lt;/p>
+&lt;p>スロウも入るし、通常も単体だし、15%への準備区間という感じ。
+一応特殊はバレクラ1のブロックとかで受けたいですね&lt;/p>
+&lt;h2 id="15">15~&lt;/h2>
+&lt;p>15破局はレイ3で受ける。渇望残ってればあとはなんとでもなる&lt;/p>
+&lt;p>10ビッグバンはシス2。5キルフレアは顔面。
+1%は踏まないようにする。&lt;/p>
+&lt;p>だめなら救援で。&lt;/p>
+&lt;h1 id="出典">出典&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://kamigame.jp/%E3%82%B0%E3%83%A9%E3%83%96%E3%83%AB/%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%90%E3%83%88%E3%83%AB/%E3%82%A2%E3%83%AB%E3%83%86%E3%82%A3%E3%83%A1%E3%83%83%E3%83%88%E3%83%90%E3%83%8F%E3%83%A0%E3%83%BC%E3%83%88H.html">【グラブル】「アルバハHL」攻略まとめ | グラブル攻略wiki | 神ゲー攻略&lt;/a> : 特殊技やデバフ耐性など。&lt;/li>
+&lt;/ul></description></item><item><title>About This Blog</title><link>https://lunashade.github.io/blog/posts/about-this-blog/</link><pubDate>Tue, 06 Oct 2020 20:03:06 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/about-this-blog/</guid><description>&lt;p>機運が出てきたのでブログ環境を作ることにした。&lt;/p>
+&lt;p>設定について。&lt;/p>
+&lt;h2 id="github-actionsによるビルド">Github Actionsによるビルド&lt;/h2>
+&lt;p>全面的にこちらのQiita記事&lt;a href="https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d">GitHub Actions による GitHub Pages への自動デプロイ&lt;/a>を参考にした。&lt;/p>
+&lt;p>&lt;a href="https://github.com/lunashade/blog">https://github.com/lunashade/blog&lt;/a> で管理することにした。&lt;/p>
+&lt;h2 id="記事の作成">記事の作成&lt;/h2>
+&lt;p>基本&lt;code>hugo new **.md&lt;/code>だけ知ってれば十分&lt;/p>
+&lt;p>ただまあ色々面倒なので、&lt;code>cargo-make&lt;/code>を導入してやることにした。
+&lt;code>makers post &amp;lt;title&amp;gt;&lt;/code>でpostを作成してエディタが開く。&lt;/p>
+&lt;p>コマンドは色々と実装していこう…&lt;/p></description></item></channel></rss>
