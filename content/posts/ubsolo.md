@@ -1,7 +1,7 @@
 ---
 title: "アルバハHLのソロのメモ"
 date: 2020-10-06T20:18:15+09:00
-draft: true
+draft: false
 tags:  ["gbf"]
 ---
 
