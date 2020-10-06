@@ -12,3 +12,14 @@ else
 	hugo new "posts/$1.md" --editor="editor"
 fi
 ''']
+
+[tasks.edit]
+description = "edit existing post"
+script = ['''
+#!/usr/bin/env bash
+f=$(hugo list all | sed 1d | cut -d, -f1 | peco)
+if [[ "$f" == "" ]]; then
+	exit 0
+fi
+editor $f
+''']
