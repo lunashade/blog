@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://lunashade.github.io/blog/xml/base.min.xml"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>るなろぐ</title><link>https://lunashade.github.io/blog/</link><description>Recent content on るなろぐ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 06 Oct 2020 20:18:15 +0900</lastBuildDate><atom:link href="https://lunashade.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>アルバハHLのソロのメモ</title><link>https://lunashade.github.io/blog/posts/ubsolo/</link><pubDate>Tue, 06 Oct 2020 20:18:15 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/ubsolo/</guid><description>&lt;p>最近やりだしたアルバハHLソロ。
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://lunashade.github.io/blog/xml/base.min.xml"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>るなろぐ</title><link>https://lunashade.github.io/blog/</link><description>Recent content on るなろぐ</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0900</lastBuildDate><atom:link href="https://lunashade.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>みお言語インタープリタを作りました</title><link>https://lunashade.github.io/blog/posts/advent-calendar-2020-12-14/</link><pubDate>Mon, 14 Dec 2020 00:00:00 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/advent-calendar-2020-12-14/</guid><description>&lt;p>このブログは本田未央Advent Calendarの14日目です。&lt;/p>
+&lt;p>&lt;a href="https://adventar.org/calendars/5487">本田未央Advent Calendar&lt;/a>&lt;/p>
+&lt;p>まだまだ参加者募集中なのでよければぜひ。（主催なのにあんまり企画の話ができていなくて申し訳ないです…）&lt;/p>
+&lt;p>せっかくなのでAdvent Calendarらしいこと&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>をしようかと思って、みお言語インタープリターを作りました。
+「み」「お」「っ」の三文字だけであらゆるプログラムを実装できるすごいやつだよ。&lt;/p>
+&lt;p>これにより、未央は移動するときの音&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>にあらゆるプログラムをコードできるようになりました。やったね。&lt;/p>
+&lt;p>まあ例にもれずぶっちゃけwhitespaceのパクリです…。
+正直大石泉とかでもうありそう。&lt;/p>
+&lt;p>&lt;a href="https://github.com/lunashade/miolang">https://github.com/lunashade/miolang&lt;/a>&lt;/p>
+&lt;h2 id="遊び方">遊び方&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/lunashade/miolang/releases/tag/v1.0.0">Githubのリリースページ&lt;/a>からOSとCPUアーキテクチャがあったものをダウンロードして解凍。
+CPUアーキテクチャについてはx86_64が64bit用、i386が32bit用です。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>解凍して出てきたmiolang(.exe)に第一引数にソースコードのパスを渡すと実行。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>たとえば&lt;a href="https://github.com/lunashade/miolang/blob/master/examples/miomio.mio">Githubに上げたサンプルコード&lt;/a>をダウンロードしてきて、
+コマンドプロンプトで&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-cmd" data-lang="cmd">&amp;gt; ./miolang.exe miomio.mio
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のようにして起動すると、
+「みおみおみおっ」という文字列を印字して終了します。&lt;/p>
+&lt;h2 id="中身について">中身について&lt;/h2>
+&lt;p>中身は&lt;a href="https://ja.wikipedia.org/wiki/Whitespace">Whitespace&lt;/a>で、
+スペースを「み」、タブ文字を「お」、改行を「っ」にしただけです。&lt;/p>
+&lt;p>Whitespaceは見た目の割には結構多機能なので、詳しい解説は&lt;a href="http://susisu.github.io/wspace/wspace.pdf">Whitespace超入門&lt;/a>なんかを参考にしてみてください。こちらのPDFには大変お世話になりました。&lt;/p>
+&lt;p>インタープリタ自体はGo製です。&lt;/p>
+&lt;h3 id="独自仕様っぽいところ">独自仕様っぽいところ&lt;/h3>
+&lt;ul>
+&lt;li>intの精度について。本来の仕様は無限の精度を許容するらしいんですが、今の所Goのintと同じ精度。ラベルとかも同様です。&lt;/li>
+&lt;li>IOについて、ASCIIだけでなくUTF-8の対応するコードポイントを入力・出力する。まぁ「みおみおみお」を印字したいプログラムなので…&lt;/li>
+&lt;li>入力に整数を期待するところでいきなり終端記号「っ」(LF)が来た場合は0が入力されたものとみなす。これはラベルについても同様。
+すなわち、整数「みみっ」と「っ」が同じく0。&lt;/li>
+&lt;li>プログラムの終端が「っっっ」で終わっていなくても入力の終端に来たら終了する。&lt;/li>
+&lt;/ul>
+&lt;h2 id="やってみた感想">やってみた感想&lt;/h2>
+&lt;p>Brainf**kは作ったことあったんですが、それの気分でWhitespaceに向き合うと機能が多すぎてびっくりするんですよね。
+ラベル貼ってジャンプできるしサブルーチンもあれば、スタックもヒープもあるので、そのへんの仕組みを結構実装してあげないといけないという。&lt;/p>
+&lt;p>Goをあまり使う機会がなかったので割と色々試せてよかったなあという気持ちがあります。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>go generate&lt;/code>使ったことがなかったので、とかどう使うのがいいのか(tools.goを用意してバージョン固定する・go run経由ならダウンロードしてビルドしてくれる)とかをしれたり&lt;/li>
+&lt;li>パーサをRob Pikeの&lt;a href="https://talks.golang.org/2011/lex.slide">Lexical Scanning in Go&lt;/a>にインスパイアされた感じで書いてみたり&lt;/li>
+&lt;/ul>
+&lt;p>結構色々と学びが多くて楽しかったです。&lt;/p>
+&lt;p>まだエラー処理とかが雑で結構完成度低いので、気が向いたらもう少し色々と仕上げたいですね…。&lt;/p>
+&lt;h2 id="参考文献">参考文献&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://susisu.github.io/wspace/wspace.pdf">Whitespace超入門&lt;/a>: Whitespace公式サイトがどうもリンク切れ状態なので、主にこちらのPDFを参照しました。&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>なんか技術系の記事という程度の意味合いです。 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>参考: &lt;a href="https://youtu.be/-JWKqKu3ZYI?t=275">アニメ・シンデレラガールズ劇場の8話&lt;/a>。リンクはアイマスチャンネルのやつ &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>アルバハHLのソロのメモ</title><link>https://lunashade.github.io/blog/posts/ubsolo/</link><pubDate>Tue, 06 Oct 2020 20:18:15 +0900</pubDate><guid>https://lunashade.github.io/blog/posts/ubsolo/</guid><description>&lt;p>最近やりだしたアルバハHLソロ。
 救援がろくにこないし、人集めもしんどいので、ソロでできるようにした上で救援流して～みたいなことをやっている。&lt;/p>
 &lt;p>天司をフルオートでやって天破という手もないではないが、まぁ輪っかが一戦2個ペースだから自発フルオートのみじゃ足んないよなーという。
 それは流石に面倒なので…&lt;/p>
